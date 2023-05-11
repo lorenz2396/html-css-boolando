@@ -18,3 +18,68 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .info{
+    background-color: #ff6900;
+}
+
+.col-small{
+    width: 25%;
+}
+
+.col-big{
+    width: 50%;
+}
+.col-1-3{
+    width: calc((100% / 3) * 1);
+    margin-top: 40px;
+    
+}
+
+/* HEADER */
+
+header .info .menu > *{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+/* FOOTER */
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+
+
+/* DEBUG */
+.debug main section .main-col{
+    height: 400px;
+    border: 2px dashed black ;
+    background-color: dodgerblue;
+}
+
+.debug .footer-info-container{
+    height: 70px;
+    background-color: black;
+}
+
+.debug .footer-info-container > *{
+    width: 80px;
+    height: 30px;
+    background-color: pink;
+    border: 2px dashed red;
+    padding: 5px;
+}
